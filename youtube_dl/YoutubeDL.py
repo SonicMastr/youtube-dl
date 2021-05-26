@@ -1154,7 +1154,7 @@ class YoutubeDL(object):
                 return True
             if info_dict.get('is_live'):
                 return True
-            if not can_merge():
+            if os.name == 'vita' or not can_merge():
                 return True
             return False
 

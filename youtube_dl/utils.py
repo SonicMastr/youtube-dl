@@ -9,7 +9,6 @@ import calendar
 import codecs
 import collections
 import contextlib
-import ctypes
 import datetime
 import email.utils
 import email.header
@@ -43,7 +42,6 @@ from .compat import (
     compat_basestring,
     compat_chr,
     compat_cookiejar,
-    compat_ctypes_WINFUNCTYPE,
     compat_etree_fromstring,
     compat_expanduser,
     compat_html_entities,
